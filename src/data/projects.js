@@ -1,25 +1,33 @@
 const projects = [
   {
     id: 1,
-    title: "タスク管理アプリ",
-    image: "https://source.unsplash.com/400x300/?task,app",
-    description: "日々のタスクを管理するCRUDアプリ",
-    tech: "React / Firebase",
-    background: "学習管理ができていなかったため作成",
-    solution: "状態管理をuseStateで整理しUIを改善",
-    improvement: "Redux導入と認証機能追加予定",
-    github: "https://github.com/sample/task-app"
+    title: "NexusFlow（開発中）",
+    image: "https://source.unsplash.com/400x300/?workflow,system",
+    description:
+      "タスクの実行と意思決定を統合したワークフロー管理アプリを開発中です。",
+    tech: "Next.js / TypeScript / React",
+    background:
+      "業務や学習の中で、タスク管理と優先順位の判断が分離しており、意思決定に時間がかかる課題がありました。",
+    solution:
+      "前身アプリであるLogicDeckの設計を見直し、タスクと評価ロジックを統合するアーキテクチャへ再設計しました。",
+    improvement:
+      "現在はバックエンド連携や認証機能の実装を進め、実用レベルへの改善を行っています。",
+    github: "https://github.com/tk56impulse/nexusflow/"
   },
   {
     id: 2,
-    title: "天気アプリ",
-    image: "https://source.unsplash.com/400x300/?weather",
-    description: "APIを使った天気表示アプリ",
-    tech: "React / OpenWeather API",
-    background: "APIの理解を深めるため",
-    solution: "非同期処理をasync/awaitで整理",
-    improvement: "エラーハンドリング強化",
-    github: "https://github.com/sample/weather-app"
+    title: "LogicDeck（前身アプリ）",
+    image: "https://source.unsplash.com/400x300/?planning,logic",
+    description:
+      "タスクの優先順位をロジックに基づいて整理するためのアプリ。",
+    tech: "React / JavaScript",
+    background:
+      "タスクの優先順位付けを感覚ではなく、ロジックで判断できるようにしたいと考え作成しました。",
+    solution:
+      "スコアリングによる優先順位付け機能を実装しましたが、タスク管理機能との分離に課題が残りました。",
+    improvement:
+      "この課題を踏まえ、現在はNexusFlowとして設計を見直し、統合型のアプリとして再構築しています。",
+    github: "https://github.com/tk56impulse/LogicDeck/"
   }
 ];
 
