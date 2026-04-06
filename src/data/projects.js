@@ -5,7 +5,7 @@ const projects = [
     image: "https://source.unsplash.com/400x300/?workflow,system",
     description:
       "タスクの実行と意思決定を統合したワークフロー管理アプリを開発中です。",
-    tech: "Next.js / TypeScript / React",
+    tech: ["React", "Firebase", "CSS"],
     background:
       "業務や学習の中で、タスク管理と優先順位の判断が分離しており、意思決定に時間がかかる課題がありました。",
     solution:
@@ -20,7 +20,7 @@ const projects = [
     image: "https://source.unsplash.com/400x300/?planning,logic",
     description:
       "タスクの優先順位をロジックに基づいて整理するためのアプリ。",
-    tech: "React / JavaScript",
+    tech: ["React" , "JavaScript"],
     background:
       "タスクの優先順位付けを感覚ではなく、ロジックで判断できるようにしたいと考え作成しました。",
     solution:
