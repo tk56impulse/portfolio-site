@@ -3,11 +3,12 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
+    
     <section id="projects" className="projects">
-      <div className="container">
-        <p className="section-label">Works</p>
-
+      <p className="section-label">Works</p>
+      <div className="container card-section">
         <h2>Projects</h2>
+        
 
         <p className="section-desc">
           課題解決を目的に開発したWebアプリケーションです。

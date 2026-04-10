@@ -5,6 +5,7 @@ const projects = [
   {
     id: 1,
     title: "NexusFlow（開発中）",
+    status: "active",
     image: nexusImg,
     description:
       "タスクの実行と意思決定を統合したワークフロー管理アプリを開発中です。",
@@ -20,17 +21,19 @@ const projects = [
   
   {
     id: 2,
-    title: "LogicDeck（前身）",
+    title: "LogicDeck",
+    status: "legacy",
     image: logicImg,
-    description:
-      "タスクの優先順位をロジックに基づいて整理するためのアプリ。",
-    tech: ["React" , "JavaScript"],
+    description: 
+      "タスクの優先順位をロジックに基づいて整理できるWebアプリ（デモ公開中）。",
+    tech: ["React", "JavaScript"],
     background:
       "タスクの優先順位付けを感覚ではなく、ロジックで判断できるようにしたいと考え作成しました。",
     solution:
       "スコアリングによる優先順位付け機能を実装しましたが、タスク管理機能との分離に課題が残りました。",
     improvement:
       "この課題を踏まえ、現在はNexusFlowとして設計を見直し、統合型のアプリとして再構築しています。",
+    demoUrl: "https://tk56-devlab-logicdeck.vercel.app//",
     github: "https://github.com/tk56-devlab/LogicDeck/"
   }
 ];
