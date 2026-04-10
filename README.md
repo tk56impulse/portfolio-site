@@ -1,3 +1,20 @@
+# My Portfolio
+
+制作物の紹介、プロフィール、連絡先をまとめたポートフォリオサイトです。
+
+## 公開URL
+[ポートフォリオを見る](https://xxxxx.vercel.app/)
+
+## 主な内容
+- Projects
+- About
+- Contact
+
+## 使用技術
+- React
+- Vite
+- CSS
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -21,3 +38,4 @@ If you are developing a production application, we recommend using TypeScript wi
 - prefix（feat / fix / style）を使用
 
 開発過程は dev-log.md に記録しています。
+
