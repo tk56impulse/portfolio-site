@@ -1,7 +1,7 @@
 function ProjectCard({ project }) {
   return (
     <div className="card">
-      <img src={project.image} alt={project.title} />
+      {project.image && <img src={project.image} alt={project.title} />}
 
       {project.title.includes("開発中") && (
         <span className="badge">開発中</span>

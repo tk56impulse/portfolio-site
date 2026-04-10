@@ -1,8 +1,11 @@
+import nexusImg from "../assets/nexusflow.png";
+import logicImg from "../assets/logicdeck.png";
+
 const projects = [
   {
     id: 1,
     title: "NexusFlow（開発中）",
-    image: "https://source.unsplash.com/400x300/?workflow,system",
+    image: nexusImg,
     description:
       "タスクの実行と意思決定を統合したワークフロー管理アプリを開発中です。",
     tech: ["React", "Firebase", "CSS"],
@@ -12,12 +15,13 @@ const projects = [
       "前身アプリであるLogicDeckの設計を見直し、タスクと評価ロジックを統合するアーキテクチャへ再設計しました。",
     improvement:
       "現在はバックエンド連携や認証機能の実装を進め、実用レベルへの改善を行っています。",
-    github: "https://github.com/tk56impulse/nexusflow/"
+    github: "https://github.com/tk56-devlab/nexusflow/"
   },
+  
   {
     id: 2,
-    title: "LogicDeck（前身アプリ）",
-    image: "https://source.unsplash.com/400x300/?planning,logic",
+    title: "LogicDeck（前身）",
+    image: logicImg,
     description:
       "タスクの優先順位をロジックに基づいて整理するためのアプリ。",
     tech: ["React" , "JavaScript"],
@@ -27,7 +31,7 @@ const projects = [
       "スコアリングによる優先順位付け機能を実装しましたが、タスク管理機能との分離に課題が残りました。",
     improvement:
       "この課題を踏まえ、現在はNexusFlowとして設計を見直し、統合型のアプリとして再構築しています。",
-    github: "https://github.com/tk56impulse/LogicDeck/"
+    github: "https://github.com/tk56-devlab/LogicDeck/"
   }
 ];
 
